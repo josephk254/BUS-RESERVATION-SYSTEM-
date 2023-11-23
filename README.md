@@ -1,10 +1,11 @@
-[Buses.txt](https://github.com/josephk254/BUS-RESERVATION-SYSTEM-/files/13452766/Buses.txt)# BUS-RESERVATION-SYSTEM-
+# BUS-RESERVATION-SYSTEM-
 Welcome to bus reservation system. This program is written in c language and designed to meet various user needs. The system allows the user to perform various tasks as shown below:
 ## Features 
 ### 1.View buses available
 - In this part, I created a file named "Buses.txt" in which i stored the bus list.
 - "FILE* fptr;"---Declares a pointer to a file
 - "fptr = fopen("Buses.txt","r");"---opens the file named "Buses.txt" in read mode(r)
+- [Buses.txt](https://github.com/josephk254/BUS-RESERVATION-SYSTEM-/files/13452766/Buses.txt)
 - "char content[1000];"---An array named content which has a size of 1000 characters which will be used to store the content read from the file.
 - "if(fptr != NULL)"---This condition checks if the file pointer "fptr" is not NULL. If it's not NULL, the code inside the if block will execute.
 - Inside the if block, "while (fgets(content, 1000, fptr))"--- reads the content of the file line by line. And the content of the opened file is printed using "printf("%s", content);"

@@ -41,13 +41,15 @@ Welcome to bus reservation system. This program is written in c language and des
 - Finally, there's a call to a function named "myfunction();" at the end of the block.
                      . myfunction()
    - It declares several variables:
-                .i for iteration.
-                .NOT to store the number of seats the user wants to book.
-                .SN (although not used in the code).
-                .count initialized to 1.
-                .name, origin, and destination arrays to store user input 
+                - i for iteration.
+                - NOT to store the number of seats the user wants to book.
+                - count initialized to 1.
+                - name, origin, and destination arrays to store user input 
                    for passenger details.
-     
+- "fptr = fopen("history.txt" , "w");"---Opens a file named "history.txt" in write mode ("w").
+- "printf("\nEnter number of seats you want to book:");"Asks the user to input the number of seats they want to book and "scanf("%d",&NOT);" allows the user to enter his or her answer.
+- "fprintf(fptr, "Number of seats you booked:%d", NOT);" prints this information to the file.
+- 
    ### 4.Check balance and deposit cash to yor account
   - Here i created a functions named : check balance, deposit and all.
   - The all function serves as a main function that allows a user to check their account balance and make deposits.

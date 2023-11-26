@@ -32,7 +32,7 @@ Welcome to bus reservation system. This program is written in c language and des
 - The code then contains a series of if statements to check the selected option and calls a function
 
 - For all the 5 if statement I called the function "display_seat_arrangement();" where:
-                        - "#define ROW_SIZE 8" and "#define COL_SIZE 4" ---These are directives that define constants ROW_SIZE as 8 and COL_SIZE as 4. These constants represent the number of rows and columns in the seat_arrangement array.
+- "#define ROW_SIZE 8" and "#define COL_SIZE 4" ---These are directives that define constants ROW_SIZE as 8 and COL_SIZE as 4. These constants represent the number of rows and columns in the seat_arrangement array.
   - "char seat_arrangement[ROW_SIZE][ROW_SIZE]"--- This line declares a two-dimensional character array named seat_arrangement with dimensions specified by ROW_SIZE and ROW_SIZE
   - Here I created a function named "display_seat_arrangement" which s responsible for displaying the current seat arrangement status.
   - Inside the display_seat_arrangement function "printf("Seat Arrangement:\n\n");"--- prints the Seat Arrangement.

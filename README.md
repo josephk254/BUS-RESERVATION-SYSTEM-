@@ -19,7 +19,7 @@ Welcome to bus reservation system. This program is written in c language and des
    ### 3.Book a ticket on your bus of choice
   
    ### 4.Check balance and deposit cash to yor account
-  - Here i created a functions named : check balance,deposit and all.
+  - Here i created a functions named : check balance, deposit and all.
   - The all function serves as a main function that allows a user to check their account balance and make deposits.
   - 
                a)Check balance
